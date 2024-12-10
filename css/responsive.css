@@ -13,8 +13,8 @@
     }
    
     .clearfix img{
-        float: inline-start;
-        margin-right:  3%;
+        float: left;
+        margin-right: 3%;
     }
 
     .ads{
@@ -91,5 +91,20 @@
         width: 40%;
     }
 
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    address{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        line-height: 75%;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
 }
