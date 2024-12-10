@@ -6,6 +6,10 @@
         justify-content: flex-start;
     }
 
+    main{
+        padding: 6%;
+    }
+
     .quick-notes ul li{
         flex-basis: calc(100% / 3);
     }
@@ -29,7 +33,11 @@
     }
 
     .recipe-origin{
-        
+        display: inline;
+    }
+
+    .recipe-title{
+        font-size: 1.3rem;
     }
 }
 
@@ -51,4 +59,13 @@
         display: flex;
         justify-content: flex-start;
     }
+
+    .recipe-origin{
+        display: inline;
+    }
+
+    .recipe-title{
+        font-size: 2rem;
+    }
+
 }
